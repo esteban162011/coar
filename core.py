@@ -91,7 +91,7 @@ MUNICIPIOS_CUNDINAMARCA = [
     "Sopó", "Subachoque", "Suesca", "Supatá", "Susa", "Sutatausa", "Tabio", "Tausa", "Tena",
     "Tenjo", "Tibacuy", "Tibirita", "Tocaima", "Tocancipá", "Topaipí", "Ubalá", "Ubaque", "Une",
     "Útica", "Vergara", "Venecia", "Vianí", "Villa de San Diego de Ubaté", "Villagómez", "Villapinzón",
-    "Villeta", "Viotá", "Yacopí", "Zipacón", "Zipaquirá", "Bogotá",
+    "Villeta", "Viotá", "Yacopí", "Zipacón", "Zipaquirá", "Bogotá", "Chinauta", "Siberia",
 ]
 
 
