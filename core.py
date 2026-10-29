@@ -1907,3 +1907,9 @@ def exportar_xlsx(res: dict) -> bytes:
     out = io.BytesIO()
     wb.save(out)
     return out.getvalue()
+
+def borrar_designaciones():
+    conn = obtener_conexion()  # reemplaza por la función/variable que ya usas para conectarte
+    with conn:
+        with conn.cursor() as cur:
+            cur.execute("DELETE FROM designaciones")  # reemplaza por el nombre real de tu tabla
