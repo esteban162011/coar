@@ -935,6 +935,14 @@ def main():
         st.success(st.session_state.pop("flash"))
     paginas[eleccion]()
 
+st.subheader("Borrar designaciones")
+confirmar = st.checkbox("Entiendo que esto borra TODAS las designaciones y no se puede deshacer")
+if st.button("Borrar designaciones", disabled=not confirmar):
+    core.borrar_designaciones()
+    st.success("Designaciones borradas")
+    st.rerun()
+   
+
 
 # ==============================================================================
 # ARRANQUE DEL PROGRAMA
